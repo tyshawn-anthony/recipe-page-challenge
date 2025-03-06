@@ -189,7 +189,7 @@ img {
   color: var(--stone-color-150);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   body {
     background-color: var(--stone-color-100);
     display: flex;
@@ -199,24 +199,58 @@ img {
 
   .wrapper {
     background-color: #fff;
-    max-width: 80rem;
+    max-width: 60rem;
     border-radius: 3rem;
-    margin: 10rem 0;
-    padding: 4rem;
+    margin-top: 5rem;
+    padding: 3rem;
   }
 
   img {
     width: 100%;
     border-radius: 1rem;
-    /* margin-bottom: 4rem; */
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .container {
     padding: 0;
+  }
+
+  .main h1 {
+    font-size: 3rem;
+    margin: 3rem 0 2rem;
+  }
+
+  .main p {
+    font-size: 1.5rem;
+  }
+
+  .main .main--prep-time {
+    margin: 1rem 0;
+    padding: 2rem;
+  }
+
+  .main .main--prep-time h3 {
+    font-size: 1.5rem;
+  }
+
+  .main .main--prep-time ul {
+    font-size: 1.2rem;
+  }
+
+  .credit {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    max-width: 80rem;
+    margin-top: 10rem;
+    padding: 4rem;
   }
 
   .main h1 {
@@ -228,6 +262,10 @@ img {
     font-size: 1.7rem;
   }
 
+  h2 {
+    font-size: 3rem;
+  }
+
   .main .main--prep-time {
     margin: 2rem 0;
     padding: 3rem;
@@ -237,9 +275,11 @@ img {
     font-size: 2rem;
   }
 
+  .main .main--prep-time ul {
+    font-size: 1.7rem;
+  }
+
   .credit {
-    /* text-align: center; */
-    margin-top: 4rem;
     font-size: 1.8rem;
   }
 }
