@@ -188,3 +188,16 @@ img {
 .credit a:hover {
   color: var(--stone-color-150);
 }
+
+@media (min-width: 1440px) {
+  body {
+    background-color: var(--rose-color-50);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    background-color: #fff;
+    max-width: 1080px;
+  }
+}
