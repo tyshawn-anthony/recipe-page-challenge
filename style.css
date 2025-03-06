@@ -191,13 +191,55 @@ img {
 
 @media (min-width: 1440px) {
   body {
-    background-color: var(--rose-color-50);
+    background-color: var(--stone-color-100);
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper {
+    background-color: #fff;
+    max-width: 80rem;
+    border-radius: 3rem;
+    margin: 10rem 0;
+    padding: 4rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 1rem;
+    /* margin-bottom: 4rem; */
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 
   .container {
-    background-color: #fff;
-    max-width: 1080px;
+    padding: 0;
+  }
+
+  .main h1 {
+    font-size: 4.5rem;
+    margin: 5rem 0 3rem;
+  }
+
+  .main p {
+    font-size: 1.7rem;
+  }
+
+  .main .main--prep-time {
+    margin: 2rem 0;
+    padding: 3rem;
+  }
+
+  .main .main--prep-time h3 {
+    font-size: 2rem;
+  }
+
+  .credit {
+    /* text-align: center; */
+    margin-top: 4rem;
+    font-size: 1.8rem;
   }
 }
