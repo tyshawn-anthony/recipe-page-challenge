@@ -45,4 +45,4 @@ Continuing on, I want to focus more on responsive design
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [tyshawn-anthony](https://www.frontendmentor.io/profile/tyshawn-anthony)
